@@ -28,7 +28,7 @@ describe 'form' do
     fill_in 'Title', with: "My post title"
     fill_in 'Description', with: "My post description"
 
-    click_on "Submit Post"
+    click_on "Create Post"
 
     expect(page).to have_content("My post title")
   end
